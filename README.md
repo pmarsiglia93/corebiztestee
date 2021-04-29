@@ -8,8 +8,9 @@ Site de e-commerce desenvolvido para teste da Corebiz, com layout disponibilizad
 <code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png"></code>
 ## Pré-requisitos
 Instalar axios para fazer requisições para a API
+```
 $ npm install axios
-
+```
 Instalar React Slick para o Slider/Carrossel
 $ npm install react-slick --save
 

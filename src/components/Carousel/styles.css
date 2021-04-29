@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;900&display=swap");
+.slick-dots {
+  margin-left: 0;
+}
+.slick-dots li.slick-active button:before {
+  color: #f8475f;
+}
+.image-slider {
+  width: 100%;
+  height: auto;
+}
+.text-slider {
+  position: absolute;
+  left: 22%;
+  width: 471px;
+  color: white;
+}
+.subtitle-slider {
+  font-family: "Nunito";
+  font-weight: 700;
+  font-size: 30px;
+}
+.title-slider {
+  font-family: "Nunito";
+  font-weight: 900;
+  font-size: 45px;
+}
+/*  Iphone 6, 7, 8, X  e plus*/
+@media screen and (max-width: 375px){ 
+    .text-slider {
+        position: absolute;
+        left: 22%;
+        top: -5%;
+        width: 131px;
+        color: white;
+      }
+      .subtitle-slider{
+        font-size: 0.6rem;
+      }
+      .title-slider{
+        font-size: 0.8rem;
+      }
+}

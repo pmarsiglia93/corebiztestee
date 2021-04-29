@@ -4,6 +4,7 @@ import Header from "./components/Header";
 import Carousel from "./components/Carousel";
 import Showcase from "./components/Showcase";
 import Newsletter from "./components/Newsletter";
+import Footer from './components/Footer'
 
 import ShoppingCartContext from "./contexts/ShoppingCartContext";
 
@@ -40,6 +41,7 @@ class App extends React.Component {
           <Carousel />
           <Showcase />
           <Newsletter />
+          <Footer />
         </div>
       </ShoppingCartContext.Provider>
     );

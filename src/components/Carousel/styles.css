@@ -30,7 +30,7 @@
     .text-slider {
         position: absolute;
         left: 22%;
-        top: -5%;
+        top: 21%;
         width: 131px;
         color: white;
       }
@@ -39,5 +39,9 @@
       }
       .title-slider{
         font-size: 0.8rem;
+      }
+      .image-slider{
+        height: 191.2px;
+        object-fit: cover;
       }
 }

@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap");
+.footer {
+  background-color: #000;
+  color: #fff;
+  padding: 20px 0;
+  width: 100%;
+}
+.footer-container {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 16px 0;
+  width: 100%;
+}
+.location > p {
+  font-family: "Nunito";
+  font-weight: 400;
+  line-height: 1.5em;
+}
+.location > h3 {
+  font-family: "Nunito";
+  font-size: 22px;
+  font-weight: 700;
+}
+.location > h3::after {
+  background-color: #fff;
+  content: "";
+  display: block;
+  height: 5px;
+  margin: 15px 0;
+  width: 20%;
+}
+.contacts {
+  display: flex;
+  flex-direction: column;
+  font-family: "Nunito";
+  font-weight: 600;
+  line-height: 1em;
+}
+
+.contacts > a {
+  align-items: center;
+  background-color: white;
+  border-radius: 5px;
+  color: black;
+  display: flex;
+  font-size: 12px;
+  height: 40px;
+  justify-content: center;
+  margin-bottom: 10px;
+  padding: 0 12px;
+  text-decoration: none;
+  width: 150px;
+}
+
+.contacts > a > span {
+  width: 90%;
+}
+
+.contacts > a > img {
+  margin-right: 10px;
+  width: 10%;
+}
+.info-icons a {
+  font-family: "Nunito";
+  font-weight: 400;
+  font-size: 12px;
+}
+.info-icons p {
+  margin-bottom: 0;
+}
+@media screen and (max-width: 375px) {
+  .footer-container {
+    flex-direction: column;
+  }
+}
